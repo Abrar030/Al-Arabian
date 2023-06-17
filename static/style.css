@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poiret+One&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Michroma&family=Poiret+One&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Michroma&family=Monoton&family=Poiret+One&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Michroma&family=Monoton&family=Poiret+One&family=Sacramento&display=swap');
+*{
+    margin: 0px;
+}
+#logo{
+    
+    background:url('./static/l1.jpg') no-repeat center center/cover;
+    height: 40px;
+    width: 100px;
+}
+
+#title{
+    font-size:29px;
+    color: white;
+    margin: 0px 10px;
+    font-family: 'Sacramento', cursive;
+}
+
+#ulli{
+    margin: 7px 158px;
+    
+}
+
+#navbar{
+    border : 2px solid black;
+    display: flex;
+    background-color: black;
+    height: 46px;
+
+}
+
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color:white;
+    padding:0px 35px;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+
+#bg{
+    /* border:2px solid black; */
+    height: 650px;
+    width: 100%;
+    background:url(./static/b14.jpg) no-repeat center center/cover;
+    
+}
+
+#logo1{
+    background-color: rebeccapurple;
+    font-size: 2rem;
+    background:url(./static/l2.jpg) no-repeat center center/cover;
+    height: 300px;
+    width: 400px;
+    margin:0px 0px;
+}
+#hdq{
+    /* border: solid 2px black; */
+    height: 300px;
+    width: 600px;
+    margin: -306px 450px;
+}
+#hd{
+    font-size: 7rem;
+    color:black;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Monoton', cursive;
+    display: flex;
+    padding:2px 3px;
+    justify-content: center;    
+
+}
+#hd2{
+    font-size: 7rem;
+    color:black;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Monoton', cursive;
+    display: flex;
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    margin:-47px 0px;
+}
+#logo2{
+    font-size: 2rem;
+    
+    background:url(./static/l2.jpg) no-repeat center center/cover;
+    width: 400px;
+    height: 300px;
+    margin: 12px 1115px;
+}
+
+#title2{
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Michroma', sans-serif;
+    padding: 0px 2px;
+    margin:50px;
+    
+}
+#lcont{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 30px 0px;
+
+}
+#logo3{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    background:url(./static/l3.jpg) no-repeat center center/cover;
+    /* border: 2px solid black; */
+}
+#logo3:hover{
+    height: 235px;
+    width: 235px;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+#logo4{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    background:url(./static/l4.jpg) no-repeat center center/cover;
+    /* border: 2px solid black; */
+
+}
+#logo4:hover{
+    height: 235px;
+    width: 235px;
+    border: 2px solid black;
+    border-radius: 18px;
+
+
+}
+#logo5{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    background:url(./static/l5.jpg) no-repeat center center/cover;
+
+}
+#logo5:hover{
+    height: 235px;
+    width: 235px;
+    border: 2px solid black;
+    border-radius: 18px;
+    max-zoom: 2px;
+
+}
+#container{
+    height: 300px;
+    width: 100%;
+    /* background-color: black; */
+}
+
+#title3{
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Michroma', sans-serif;
+    padding: 30px 0px;
+    margin:70px 0px;
+
+    
+}
+#p{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+#pr1{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background:url(./static/p1.jpeg)no-repeat center center/cover;
+    margin: 0px 100px;
+    border-radius: 200px;
+
+}
+#bio{
+    font-size: 2rem;
+    border:2px solid white;
+    margin: 0px 540px;
+    height: 70px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+#pg{
+    border:solid 2px black;
+    margin: 0px 541px;
+    height: 300px;
+    width: 700px;
+    font-family: 'Poiret One', cursive;
+
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 40px;
+
+
+}
+#bio2{
+    font-size: 2rem;
+    border:2px solid black;
+    height: 70px;
+    width: 400px;
+    margin:0px -900px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background-color: black;
+    color: white;
+}
+#pr2{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background:url(./static/p2.jpg)no-repeat center center/cover;
+    margin: 300px 1026px;
+    border-radius: 200px;
+
+} 
+
+                        /* MENU */
+#pg2{
+    border:solid 2px black;
+    height: 300px;
+    width: 700px;
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    margin: 2px -900px;
+    
+    
+}
+#title4{
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Michroma', sans-serif;
+    padding: 0px 0px;
+    margin:0px 0px;
+    /* border:2px solid black; */
+    margin-top:-120px; 
+    
+}   
+#t{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 40px 30px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n1{
+    font-size: 2rem;
+    margin:0px 0px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+}
+
+#tharid{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: 70px 30px;
+    background:url(./static/Tharid.webp)no-repeat center center/cover;
+}
+#pg3{
+    /* border:solid 2px black; */
+    margin: 0px 714px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 580;
+    font-family: 'Sacramento', cursive;
+    font-size: 34px;
+}
+
+#t2{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 80px 1485px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n2{
+    font-size: 2rem;
+    margin:0px -305px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+    /* border:solid 2px black; */
+}
+
+#kunafah{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: -10px 836px;
+    background:url(./static/k3.jpg)no-repeat center center/cover;
+}
+#pg4{
+    /* border:solid 2px black; */
+    margin: 0px -800px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 590;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+
+#t3{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 40px 30px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n3{
+    font-size: 2rem;
+    margin:0px 0px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+}
+
+#gahwa{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: 70px 30px;
+    background:url(./static/q1.jpeg)no-repeat center center/cover;
+}
+#pg5{
+    /* border:solid 2px black; */
+    margin: 0px 714px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 580;
+    font-family: 'Sacramento', cursive;
+    font-size: 34px;
+}
+
+#t4{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 80px 1485px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n4{
+    font-size: 2rem;
+    margin:0px -249px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+    /* border:solid 2px black; */
+}
+
+#mandi{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: -10px 836px;
+    background:url(./static/m1.jpg)no-repeat center center/cover;
+}
+#pg6{
+    /* border:solid 2px black; */
+    margin: 0px -800px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 590;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+
+
+#t5{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 40px 30px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n5{
+    font-size: 2rem;
+    margin:0px 0px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+}
+
+#mutabbaq{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: 70px 30px;
+    background:url(./static/mq1.jpg)no-repeat center center/cover;
+}
+#pg7{
+    /* border:solid 2px black; */
+    margin: 0px 714px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 580;
+    font-family: 'Sacramento', cursive;
+    font-size: 37px;
+}
+
+#t6{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 40px 30px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n6{
+    font-size: 2rem;
+    margin:0px 0px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+}
+
+#harees{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: 70px 30px;
+    background:url(./static/h1.jpg)no-repeat center center/cover;
+}
+#pg8{
+    /* border:solid 2px black; */
+    margin: 0px 714px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 580;
+    font-family: 'Sacramento', cursive;
+    font-size: 38px;
+}
+
+#t7{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 80px 1485px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n7{
+    font-size: 2rem;
+    margin:0px -249px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+    /* border:solid 2px black; */
+}
+
+#kabsa{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: -10px 836px;
+    background:url(./static/kb1.jpg)no-repeat center center/cover;
+}
+#pg9{
+    /* border:solid 2px black; */
+    margin: 0px -800px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 590;
+    font-family: 'Sacramento', cursive;
+    font-size: 37px;
+}
+
+
+#t8{
+    border-left:6px solid black;
+    height: 100px;
+    margin: 40px 30px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#n8{
+    font-size: 2rem;
+    margin:0px 0px;
+    height: 50px;
+    width: 150px;
+    padding: 30px 35px;
+}
+
+#shawarma{
+    font-size: 2rem;
+    border: 2px solid black;
+    height: 350px;
+    width: 650px;
+    margin: 70px 30px;
+    background:url(./static/s.jpg)no-repeat center center/cover;
+}
+#pg10{
+    /* border:solid 2px black; */
+    margin: 0px 714px;
+    height: 350px;
+    width: 650px;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 580;
+    font-family: 'Sacramento', cursive;
+    font-size: 38px;
+}
+
+#container{
+    background-color: black;
+    height: 750px;
+    width:100%;
+}
+#title5{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Michroma', sans-serif;
+    padding: 0px 0px;
+    margin:0px 0px;
+    color: white;
+    /* border:2px solid black; */
+    
+}  
+
+#fm{
+    border: 2px solid white;
+    height: 350PX;
+    width: 700px;
+    margin: 115px 70px;
+
+}
+.myfrm, input{
+    padding:5px 153px;
+    margin: 14px 100px;
+    border-radius: 6px;
+
+}
+
+button{
+    border: 2px solid white;
+    margin: 15px 295px;
+    border-radius: 6px;
+    padding: 5px 9px;
+    /* background-color: black; */
+    /* color: white; */
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+

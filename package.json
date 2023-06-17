@@ -1,0 +1,15 @@
+{
+  "name": "food_vlog",
+  "version": "1.0.0",
+  "description": "food vlog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abrar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
